@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Caveat', cursive;
-    background-color: rgb(12, 101, 143);
+    background-color: rgba(14, 157, 223, 0.794);
 
 }
 
@@ -41,11 +41,46 @@ body {
     top: 10%;
     left: 5%;
     animation-name: cloud1;
-    animation-duration: 5s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
 }
 
 @keyframes cloud1 {
+    0% {left: 5%; top: 10%}
+    25% {left: 6%; top: 11%}
+    50% {left: 5%; top: 9%}
+    75% {left: 5%; top: 8%;}
+    100% {left: 5%; top: 10%}
+}
+
+.cloud2 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation-name: cloud1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud2 {
+    0% {left: 5%; top: 10%}
+    25% {left: 6%; top: 11%}
+    50% {left: 5%; top: 9%}
+    75% {left: 5%; top: 8%;}
+    100% {left: 5%; top: 10%}
+}
+
+
+.cloud3 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation-name: cloud1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud3 {
     0% {left: 5%; top: 10%}
     25% {left: 6%; top: 11%}
     50% {left: 5%; top: 9%}
